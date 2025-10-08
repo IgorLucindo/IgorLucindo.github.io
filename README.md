@@ -1,4 +1,4 @@
-# webpage - Igor Lucindo Cardoso
+# Homepage - Igor Lucindo Cardoso
 PhD student - Industrial Engineering - Texas Tech university.
 
 # About Me
