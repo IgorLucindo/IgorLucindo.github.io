@@ -1,5 +1,7 @@
 # Homepage - Igor Lucindo Cardoso
-PhD student - Industrial Engineering - Texas Tech university.
+[![Website](https://img.shields.io/badge/WEBSITE-Igor_Cardoso-0078D4?style=for-the-badge)](https://IgorLucindo.github.io)
+
+PhD student - Industrial Engineering - Texas Tech University.
 
 # About Me
 I have always been passionate about mathematics and problem-solving, which has driven my professional journey. I enjoy tackling complex challenges and continuously expanding my knowledge in the field.
