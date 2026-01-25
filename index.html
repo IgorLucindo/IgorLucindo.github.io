@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="website/css/vars.css">
   <link rel="stylesheet" href="website/css/header.css">
   <link rel="stylesheet" href="website/css/styles.css">
+  <link rel="stylesheet" href="website/css/app.css">
+  <link rel="stylesheet" href="website/css/pub.css">
   <link rel="stylesheet" href="website/css/footer.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
@@ -48,9 +50,11 @@
     <section id="about">
       <img src="website/assets/images/profile_picture.jpeg" alt="Portrait of Igor Cardoso" class="profile" loading="lazy">
       <h2>About Me</h2>
+
       <p>
         Hi, I'm Igor Cardoso, a PhD student in Industrial Engineering at Texas Tech University. I have always been passionate about mathematics and problem-solving, which has driven my professional journey.
       </p>
+
       <p>
         My research focuses on Integer Linear Programming and its applications in optimization. I am particularly interested in developing efficient algorithms and mathematical models to solve real-world industrial problems.
       </p>
@@ -60,10 +64,14 @@
 
     <section id="news">
       <h2>News</h2>
+
       <ul class="news-list">
         <li><strong>Dec 2025</strong> — Awarded the <strong>TTU Tye Industrial Endowment Engineering Scholarship</strong> for the Spring 2026 semester, recognizing academic excellence in the Industrial, Manufacturing, & Systems Engineering program.</li>
+        
         <li><strong>Sep 2025</strong> — Our INFORMS Student Chapter at Texas Tech University was honored with the <strong>2025 Student Chapter Annual Award (Cum Laude)</strong>. I actively participate in seminars and collaborations to deepen my knowledge of optimization and operations research.</li>
+        
         <li><strong>May 2025</strong> — Completed an <strong>aircraft scheduling optimization project for American Airlines</strong> as part of a graduate course at Texas Tech University, applying mixed-integer programming techniques to improve scheduling efficiency.</li>
+        
         <li><strong>Feb 2025</strong> — Joined the INFORMS Student Chapter at Texas Tech University. Involved in seminars and collaborations to expand my knowledge of optimization and operations research.</li>
       </ul>
     </section>
@@ -72,23 +80,69 @@
 
     <section id="apps">
       <h2>Apps & Tools</h2>
-      <ul class="news-list">
-        <li>
-          <a href="https://igorlucindo.github.io/wordle-optimization-GAME/" target="_blank"><strong>Wordle Best Guesses</strong></a> — A GPU-accelerated decision tree solver that achieves a theoretically optimal 3.42 average guesses. Allows users to play interactively and compare human intuition against the 'Subtree Look-ahead' algorithm.
-        </li>
-        <li>
-          <a href="https://igorlucindo.github.io/fifa-world-cup-2026-scheduler-APP/" target="_blank"><strong>FIFA World Cup 2026 Scheduler</strong></a> — An interactive dashboard using Mixed Integer Programming (MIP) to optimize match scheduling for minimized team travel. Features a drag-and-drop interface for users to build and validate custom schedules.
-        </li>
-        <li>
-          <a href="https://igorlucindo.github.io/expense-splitter-APP/" target="_blank"><strong>Expense Splitter</strong></a> — A utility tool designed to track and optimize shared expenses.
-        </li>
-      </ul>
+
+      <div class="app-grid">
+        
+        <a href="https://igorlucindo.github.io/wordle-optimization-GAME/" target="_blank" class="app-box">
+          <div class="app-title">
+            <i class="fas fa-gamepad"></i> Wordle Best Guesses
+          </div>
+          <p class="app-desc">
+            A GPU-accelerated decision tree solver achieving a theoretically optimal 3.42 average guesses. Play interactively to compare your intuition against the algorithm.
+          </p>
+        </a>
+
+        <a href="https://igorlucindo.github.io/fifa-world-cup-2026-scheduler-APP/" target="_blank" class="app-box">
+          <div class="app-title">
+            <i class="fas fa-futbol"></i> FIFA World Cup 2026 Scheduler
+          </div>
+          <p class="app-desc">
+            An interactive app using Mixed Integer Programming (MIP) to optimize match scheduling. Drag-and-drop matches to build and validate your own schedule.
+          </p>
+        </a>
+
+        <a href="https://igorlucindo.github.io/expense-splitter-APP/" target="_blank" class="app-box">
+          <div class="app-title">
+            <i class="fas fa-file-invoice-dollar"></i> Expense Splitter
+          </div>
+          <p class="app-desc">
+            A utility tool designed to track and optimize shared expenses for fairness and minimal transactions.
+          </p>
+        </a>
+      </div>
     </section>
 
     <hr class="divider">
 
     <section id="pub">
       <h2>Publications</h2>
+
+      <div class="pub-card">
+        <p>
+          <strong>Cardoso, Igor</strong>, Teodoro, Gabriel and Validi, Hamidreza (2026). 
+          <strong>A Polytime and Interpretable Approach for Solving Wordle</strong>. 
+          Submitted to: <em>Operations Research</em>.
+        </p>
+        <div class="pub-links">
+          <a href="#" class="btn" style="opacity: 0.6; cursor: default;">PDF (Submitted)</a>
+          <a href="https://github.com/IgorLucindo/wordle-optimization-GAME" target="_blank" class="btn">Code</a>
+          <a href="https://igorlucindo.github.io/wordle-optimization-GAME/" target="_blank" class="btn">App</a>
+        </div>
+      </div>
+
+      <div class="pub-card">
+        <p>
+          Gutierrez, Rogelio, <strong>Cardoso, Igor</strong> and Validi, Hamidreza (2026). 
+          <strong>Sport Scheduling to Minimize Travels at the FIFA World Cup 2026</strong>. 
+          Submitted to: <em>Optimization Letters</em>.
+        </p>
+        <div class="pub-links">
+          <a class="btn" style="opacity: 0.6; cursor: default;">PDF (Submitted)</a>
+          <a href="https://github.com/IgorLucindo/fifa-world-cup-2026-scheduler-APP" target="_blank" class="btn">Code</a>
+          <a href="https://igorlucindo.github.io/fifa-world-cup-2026-scheduler-APP/" target="_blank" class="btn">App</a>
+        </div>
+      </div>
+
       <div class="pub-card">
         <p>
           <strong>Cardoso, Igor</strong>, Gomes, Carlos, Rosa, Paulo F.F. and da Fonseca, Vinicius Prado (2024). 
@@ -98,7 +152,7 @@
           In: <em>MeMeA 2024 - IEEE Medical Measurements &amp; Applications</em>.
         </p>
         <div class="pub-links">
-          <a href="website/assets/docs/paper.pdf" target="_blank" class="btn">PDF</a>
+          <a href="https://ieeexplore.ieee.org/document/10596873" target="_blank" class="btn">IEEE Xplore</a>
           <a href="https://github.com/IgorLucindo/prothestic-ada-hand" target="_blank" class="btn">Code</a>
         </div>
       </div>

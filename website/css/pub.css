@@ -1,0 +1,48 @@
+.pub-card {
+  padding: 1em;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  margin-bottom: 1.5em;
+}
+
+#pub p {
+  margin: 0;
+  margin-bottom: 1vh;
+}
+
+.pub-links {
+  margin: 0;
+}
+
+.pub-links .btn {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 0.15vh 0.3vw;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 1px solid var(--link-color);
+  color: var(--link-color);
+  transition: all 0.3s ease;
+}
+
+.pub-links .btn:hover {
+  color: #fff;
+  background-color: var(--link-color);
+  border-color: var(--link-color);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  #pub p {
+    font-size: 0.9rem;
+  }
+
+  .pub-links .btn {
+    font-size: 0.85rem;
+    padding: 0.2vh 1vw;
+    margin-right: 8px;
+    margin-bottom: 5px;
+  }
+}
